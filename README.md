@@ -1,5 +1,30 @@
-# EEducation
+# E-EDUCATION WEB APP
+#### By **Edwin Kolem, Edwin Kimathi and Sharlin Rono
+## Description
+This is web application that helps programmers build their knowledge. Learners can sign up for courses and learn.
+## BEHAVIOUR DRIVEN DEVELOPMENT
+| GENERAL BEHAVIOUR | INPUT | OUTPUT|
+|:------------------|:--------|:-----------|
+|User wants to learn| They select their desired institution |---|
+|User wants to be a particular developer| They select type of developer|sign up for courses|
 
+## Setup/Installation Requirements
+* clone the following repo https://github.com/edwinkipchumba/e-education
+* use your desired folder on your machine and clone
+the repo there
+## Known Bugs
+ As per now there are no known bugs.If you experience any you can reach us via email edwin.kolem@student.moringaschool.com
+## Technologies Used
+1.Python 
+2.Flask
+3.Angular
+## Support and contact details
+Incase of any queries you can reach us through email edwin.kolem@student.moringaschool.com
+### License
+This Project comes wit MIT License. View it <a href="https://github.com/edwinkipchumba/e-education/blob/master/LICENSE"> MIT</a>
+ Edwin Kolem, Edwin Kimathi & Sharlin Rono
+
+## Angular requirements
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
