@@ -1,0 +1,11 @@
+.navbar{
+    padding:0px;
+    margin:0px;
+}
+.navbar-primary .navbar-nav .nav-link{
+    font-size:18px;
+}
+
+.navbar-primary .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
