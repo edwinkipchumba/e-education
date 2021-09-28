@@ -2,12 +2,13 @@
     <div class="container">
         <h1 class="text-center">All Courses</h1>
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-lg-3" *ngFor="let cs of course">
-                <div class="box">
+                <div class="box shadow-sm">
                     <img src="cs.image" width="100">
-                    <h3>{{cs.name}}</h3>
-                    <p>{{cs.description}}</p>
+                    <h3 class="mt-2">{{cs.name}}</h3>
+                    <p class="mt-2">{{cs.description}}</p>
+                    <button class="btn btn-primary btn-sm mt-2 text-center">Learn more</button>
                 </div>
             </div>
         </div>
