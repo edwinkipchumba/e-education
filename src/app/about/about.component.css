@@ -1,7 +1,10 @@
-.about{
-    background-color: #ffffff;
+.follow a{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
 }
-.aboutcontent h1{
-    font-size: 30px;
-    position: absolute;
+@media screen and (max-width:600px){
+    .follow a{
+        padding: 5px;
+    }
 }
