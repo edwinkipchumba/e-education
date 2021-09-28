@@ -1,5 +1,13 @@
 <section class="course">
     <div class="container">
         <h1 class="text-center">All Course</h1>
+
+        <div class="row" *ngFor="let cs of course">
+            <div class="col-lg-3">
+                <div class="box">
+                    <h3>{{cs.name}}</h3>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
