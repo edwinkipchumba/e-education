@@ -4,11 +4,12 @@
 
         <div class="row mt-5">
             <div class="col-lg-3" *ngFor="let cs of course">
-                <div class="box shadow-sm">
-                    <img src="cs.image" width="100">
+                <div class="box">
+                    <img src="{{cs.image}}" width="100">
                     <h3 class="mt-2">{{cs.name}}</h3>
                     <p class="mt-2">{{cs.description}}</p>
-                    <button class="btn btn-primary btn-sm mt-2 text-center">Learn more</button>
+                    <!-- -->
+                    <a href="{{cs.link}}"> <button class="btn btn-primary btn-sm mt-2 text-center">Learn more</button></a>
                 </div>
             </div>
         </div>
