@@ -1,6 +1,8 @@
 .container{
     background-image: url(https://static.makeuseof.com/wp-content/uploads/2012/02/Ying-and-Yang.png);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
     
 }
 .join{
