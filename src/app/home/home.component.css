@@ -1,4 +1,4 @@
-.img{
+.home img{
     width: 100%;
     height: 600px;
     object-position: center;
@@ -20,5 +20,11 @@
 }
 @media screen and (max-width:600px)
 {
-    
+    .home img{
+        height: 700px;
+        
+    }
+    .homecontent h1{
+        font-size: 40px;
+    }   
 }
