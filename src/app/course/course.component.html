@@ -1,11 +1,13 @@
 <section class="course">
     <div class="container">
-        <h1 class="text-center">All Course</h1>
+        <h1 class="text-center">All Courses</h1>
 
-        <div class="row" *ngFor="let cs of course">
-            <div class="col-lg-3">
+        <div class="row">
+            <div class="col-lg-3" *ngFor="let cs of course">
                 <div class="box">
+                    <img src="cs.image" width="100">
                     <h3>{{cs.name}}</h3>
+                    <p>{{cs.description}}</p>
                 </div>
             </div>
         </div>

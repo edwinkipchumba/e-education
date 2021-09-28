@@ -12,10 +12,9 @@ export class CourseComponent implements OnInit {
   ngOnInit(): void {
   }
 course= [
-  {'id':1,'name':'Learn Angular','description':'angular.........','image':'../..assets/images/angu-img.png'},
-  {'id':2,'name':'Learn Flask','description':'flask.........','image':'../..assets/images/flask-img.png'},
-  {'id':3,'name':'Learn Python','description':'python.........','image':'../..assets/images/python-img.png'},
-  {'id':4,'name':'Learn Reactjs','description':'reactjs.........','image':'../..assets/images/react-img.png'},
-  {'id':5,'name':'Learn Javascript','description':'javascript.........','image':'../..assets/images/ts-js.png'}
+  {'id':1,'name':'Learn Angular','description':'Angular is a platform and framework used to build single-page applications using HTML and TypeScript. ','image':'./assets/images/angu-img.png'},
+  {'id':2,'name':'Learn Python/Flask','description':'flask.........','image':'../../assets/images/flask-img.png'},
+  {'id':3,'name':'Learn Reactjs','description':'reactjs.........','image':'../../assets/images/react-img.png'},
+  {'id':4,'name':'Learn JSscript','description':'javascript.........','image':'../../assets/images/ts-js.png'}
 ]
 }
