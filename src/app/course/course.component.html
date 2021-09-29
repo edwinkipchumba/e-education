@@ -16,6 +16,28 @@
     </div>
 </section>
 
+<!-- api codes -->
+<div class="container">
+<form>
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search your language code" [(ngModel)]="book" 
+      name="book" (keyup)="findBook()" (keyup)="findCont()">
+    </div>
+  </form>
+  <div *ngIf="user">
+    <p>{{user.page}}</p>
+    
+  </div>
+
+  <br>
+<br>
+<div *ngFor="let books of content"> 
+  <p>{{books.title}}</p>
+  <a href="{{books.url}}">learn more</a>
+  <p></p>
+</div>
+</div>
+
 <!-- footer -->
 <footer>
     <div class="row">
