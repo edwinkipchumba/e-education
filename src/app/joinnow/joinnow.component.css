@@ -1,0 +1,28 @@
+.container{
+    background-image: url(https://static.makeuseof.com/wp-content/uploads/2012/02/Ying-and-Yang.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    
+}
+.join{
+    padding: 140px 100px;
+}
+.form1{
+    background-color: white;
+    padding: 3%;
+
+}
+#joinnow{
+    padding: 13%;
+    display: flex;
+}
+#slc{
+    padding-top: 3%;
+}
+#dvp{
+    padding-top: 3%;
+}
+#sub{
+    margin-left: 290px;
+}
