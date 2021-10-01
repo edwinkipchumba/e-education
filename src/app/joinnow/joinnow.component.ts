@@ -8,9 +8,12 @@ import { ServicesService} from '../services.service';
 })
 export class JoinnowComponent implements OnInit {
 
-  loginUserData = {}
+  
 
   constructor() { }
+  getName(){
+    alert("we will get back to you")
+  }
 
   ngOnInit(): void {
 
