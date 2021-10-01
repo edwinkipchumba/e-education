@@ -12,6 +12,7 @@ export class CourseComponent implements OnInit {
   user!: any;
   content!: any[];
   book!: string;
+  api!: any;
 
   course= [
     {'id':1,'name':'Learn Angular','description':'Angular is a platform and framework used to build single-page applications using HTML and TypeScript. ','image':'../../assets/images/angu-img.png','link':'https://angular.io/'},
@@ -22,6 +23,7 @@ export class CourseComponent implements OnInit {
   constructor(private servicesService:ServicesService,private http:HttpClient) {
    
    }
+   
    findBook(){
     this.servicesService.getUser(this.book).subscribe((data) => {
   
@@ -49,6 +51,8 @@ export class CourseComponent implements OnInit {
     this.book="sql"
       this.findBook()
       this.findCont()
+      this.servicesService.getapi().subscribe((data)=>
+    this.api = data);
   }
 
 }

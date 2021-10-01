@@ -25,7 +25,7 @@
     </div>
   </form>
   <div *ngIf="user">
-    <p>{{user.page}}</p>
+    <!-- <p>{{user.page}}</p> -->
     
   </div>
 
@@ -37,6 +37,14 @@
   <p></p>
 </div>
 </div>
+
+<!-- api display -->
+<div class="container" *ngFor="let edwin of api">
+  <!-- <p>{{api.title}}</p>
+  <p>{{api.author}}</p> -->
+</div>
+
+
 
 <!-- footer -->
 <footer>
